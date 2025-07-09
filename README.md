@@ -22,6 +22,13 @@ This project implements a deep learning model based on InceptionV3 architecture 
 ```bash
 pip install medmnist torch torchvision matplotlib seaborn pandas numpy scikit-learn
 ```
+
+## Running the Notebook
+
+1. Clone this repository or download the notebook.
+2. Run all cells in the notebook `PneumoniaMNIST_Samriddhi_Sen.ipynb`.
+3. Visualizations, model training logs, and evaluation metrics will be displayed inline.
+
 # Hyperparameter Choices
 
 This document outlines the hyperparameters used during the fine-tuning of the InceptionV3 model for pneumonia detection.
@@ -35,12 +42,6 @@ This document outlines the hyperparameters used during the fine-tuning of the In
 - **Epochs:** 10
 *   Determined to allow sufficient training for convergence without causing overfitting, especially given the dataset size and transfer learning approach.
 
-## Running the Notebook
-
-1. Clone this repository or download the notebook.
-2. Run all cells in the notebook `PneumoniaMNIST_Samriddhi_Sen.ipynb`.
-3. Visualizations, model training logs, and evaluation metrics will be displayed inline.
-
 ## Results
 
 Evaluation includes:
@@ -51,4 +52,3 @@ Evaluation includes:
 ## Author
 
 - **Samriddhi Sen**
-
